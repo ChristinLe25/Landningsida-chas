@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(144, 138, 138);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root {
+    font-size: 16px;
+}
+
+.chas_loggo {
+    height: 5rem;
+    margin-right: auto;
+}
+
+.header {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_nav {
+    margin: 0rem 4rem;
+    width: 25rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link_style {
+   color: black; 
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.nav_link_style:hover {
+    color: rgb(187, 200, 196);
+}
+
+.btn_style {
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 5rem;
+    font-weight: 500;
+}
+
+/************************
+        main articel 1
+************************/
+
+.greting_article {
+    height: 50vh;
+    margin: 0rem 30rem;
+    text-align-last: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0rem 5rem;
+}
+.btn_size_articel {
+    height: 4rem;
+    width: 12rem;
+}
+/************************
+        main articel 2
+************************/
+
+.article_info {
+    margin: 5rem 10rem;
+    display: flex;
+}
+.article_info_img {
+    height: 25rem;
+}
+.articel_info_text {
+    margin: 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+h2 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+/************************
+        main articel 3
+************************/
+.articel_recommendations {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.perent_box {
+    display: flex;
+}
+.box {
+    height: 10rem;
+    width: 10rem;
+    margin: 5rem;
+    background-color: rgb(225, 225, 213);
+}
+/************************
+        main articel 4
+************************/
+.articel_apply {
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/************************
+        footern
+************************/
+footer {
+    background-color: aquamarine;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_list_one {
+}
+
+.footer_list_two {
+    
+}
+footer li,a {
+    color: rgb(192, 62, 15);
+    list-style: none;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+.chas_loggo_footer {
+    height: 10rem;
+}
